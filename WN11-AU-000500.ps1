@@ -25,8 +25,6 @@
     PS C:\> .\WN11-AU-000500.ps1 
 #>
 
-# YOUR CODE GOES HERE
-
 $path = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\EventLog\Application"
 $name = "MaxSize"
 $value = 0x8000  # 32768 in decimal
